@@ -11,7 +11,7 @@
   }
   .partners-banner > h1 {
     position: absolute;
-    bottom: 6rem;
+    bottom: 4rem;
     width: 100%;
     text-align: center;
     font-weight: 400;
@@ -112,10 +112,33 @@
   footer p {
     width: 80%;
   }
+  /* form-section */
+  form {
+    width: 80%;
+    padding: 2rem 2rem 2rem 5rem;
+  }
+  .contact-text > h1, .con-wrapper > h1  {
+    text-align: left;
+  }
+  label,
+  input,
+  select,
+  option {
+    width: 100%;
+  }
+  .contact-btn{
+    width: 100%;
+  }
 }
 
 /* Styles for large smartphones (321px - 480px) */
 @media screen and (min-width: 321px) and (max-width: 480px) {
+  .nav-img-link {
+    width: 50%;
+  }
+  .nav-img-link > img {
+    width: 100%;
+  }
   nav > ul {
     display: none;
   }
@@ -191,8 +214,8 @@
   }
   /* partner-section */
   .partners-banner > h1 {
-    bottom: 3.5rem;
-    font-size: 0.8rem;
+    bottom: 1.1rem;
+    font-size: 1.2rem;
     padding: 0;
   }
   .partners-info {
@@ -219,6 +242,21 @@
   .icons,
   footer p {
     width: 80%;
+  }
+  /* form-section */
+  form {
+    width: 100%;
+    padding: 2rem;
+    font-size: 0.7rem;
+  }
+  label,
+  input,
+  select,
+  option {
+    width: 100%;
+  }
+  .contact-btn {
+    width: 100%;
   }
 }
 
@@ -323,6 +361,18 @@
     width: 100%;
   }
   footer p {
+    width: 100%;
+  }
+
+  /* form-section */
+  form {
+    width: 100%;
+    padding: 2rem;
+    font-size: 0.7rem;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
     width: 100%;
   }
 }

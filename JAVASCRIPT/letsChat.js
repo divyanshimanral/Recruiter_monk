@@ -25,6 +25,6 @@ infoForm.addEventListener('submit', function(e) {
     userCompany.value=""
     userPhone.value=""
 
-    alert("User information submitted successfully!");
+    alert("User information submitted successfully! We'll contact you shortly");
 
 })

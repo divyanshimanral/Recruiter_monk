@@ -22,6 +22,7 @@ main {
   width: 100%;
 }
 .heading {
+  text-align: left;
   margin-bottom: 1rem;
   font-family: "Caprasimo", cursive;
   font-size: 3em;
@@ -34,8 +35,8 @@ main {
 .main-btns {
   position: relative;
   bottom: 2rem;
-  width: 50%;
-  padding-left: 4rem;
+  width: 54%;
+  padding-left: 5rem;
 }
 .main-btn {
   margin-right: 1rem;
@@ -111,19 +112,21 @@ main {
   flex-direction: column;
   justify-content: space-between;
 }
-.services > h1 {
+.services .service-head {
   text-align: center;
   font-size: 2rem;
-  padding: 1.2rem;
+  padding: 0.2rem;
   font-family: "Courier New", Courier, monospace;
+  margin: 0.7rem 0rem;
 }
 .services > p {
   font-family: "Courier New", Courier, monospace;
   font-weight: 800;
   text-align: center;
   font-style: italic;
-  padding: 0.7rem;
+  padding: 0rem;
   letter-spacing: 1px;
+  font-size: 1.1rem;
 }
 .flex .card > img {
   width: 80%;
@@ -188,6 +191,7 @@ label {
 }
 input::placeholder {
   padding: 1rem;
+  color: black;
 }
 .contact-btn {
   padding-top: 1rem;
@@ -279,7 +283,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 15%;
+  width: 32%;
   margin: 0 auto;
   padding: 2rem;
 }

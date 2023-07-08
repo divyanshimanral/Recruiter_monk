@@ -19,12 +19,11 @@ nav {
   justify-content: space-between;
   width: 100%;
   background: transparent;
-  height: 140px;
-  max-width: 1500px;
+  height: 100px;
   margin: 0 auto;
 }
 .nav-img-link {
-  width: 55%;
+  width: 25%;
 }
 .nav-img-link > img {
   width: 100%;
