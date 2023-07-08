@@ -19,4 +19,4 @@ at providing a seamless hiring experience for multiple MNCs. The three pages are
 
 ### Used: HTML.CSS and Vanilla Javascript
 
- 
+## Hosted Link: <a style="color: red;" href="recruiter-monk-trial.netlify.app">Recruiter Monk</a>
