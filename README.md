@@ -19,4 +19,6 @@ at providing a seamless hiring experience for multiple MNCs. The three pages are
 
 ### Used: HTML.CSS and Vanilla Javascript
 
-## Hosted Link: <a style="color: red;" href="https://transcendent-mooncake-71ebaf.netlify.app/#">Recruiter Monk</a>
+- https://recruiter-monk-trial.netlify.app/
+
+## Hosted Link: <a style="color: red;" href="https://recruiter-monk-trial.netlify.app/">Recruiter Monk</a>
