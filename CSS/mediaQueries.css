@@ -117,7 +117,8 @@
     width: 80%;
     padding: 2rem 2rem 2rem 5rem;
   }
-  .contact-text > h1, .con-wrapper > h1  {
+  .contact-text > h1,
+  .con-wrapper > h1 {
     text-align: left;
   }
   label,
@@ -126,7 +127,7 @@
   option {
     width: 100%;
   }
-  .contact-btn{
+  .contact-btn {
     width: 100%;
   }
 }

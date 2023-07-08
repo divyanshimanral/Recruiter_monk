@@ -102,6 +102,7 @@ main {
 }
 /* ----------------------------------------------Services-section------------------------------------------------ */
 #services {
+  margin-top: 1.5rem;
   padding: 5rem 0 2rem 0;
 }
 .services {
@@ -297,6 +298,6 @@ footer p {
   padding-bottom: 1rem;
 }
 
-body a{
+body a {
   text-decoration: none;
 }

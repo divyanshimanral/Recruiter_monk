@@ -15,9 +15,9 @@ body {
   background: rgb(254, 185, 10);
 }
 .top-btn > a {
-    text-decoration: none;
-    color: white;
-    font-weight: 800;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
 }
 #buttons {
   margin-top: 1rem;

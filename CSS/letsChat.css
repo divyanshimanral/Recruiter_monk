@@ -7,27 +7,27 @@ body {
   font-family: "PT Sans", sans-serif;
   scroll-behavior: smooth;
 }
-header{
-    width: 10%;
-    background-color: #ecd448;
-    position: sticky;
-    top: 0;
-    left: 0;
-    padding: .7rem;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 300px;
-    min-width: 100px;
+header {
+  width: 10%;
+  background-color: #ecd448;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 0.7rem;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  min-width: 100px;
 }
-header>a{
-    text-decoration: none;
-    /* border: 2px solid red; */
-    margin-left: .7rem;
-    color: black;
-    font-weight: 900;
-    font-size: 1.3rem;
+header > a {
+  text-decoration: none;
+  /* border: 2px solid red; */
+  margin-left: 0.7rem;
+  color: black;
+  font-weight: 900;
+  font-size: 1.3rem;
 }
 
 h1 {

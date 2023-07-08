@@ -52,16 +52,12 @@ form.addEventListener("submit", function (e) {
 
   //   get values from local storage
   let storedData = JSON.parse(localStorage.getItem("userArray"));
-  let i = 
-  console.log(storedData[0].name)
-  console.log(name)
-  if(storedData && storedData.name === name && storedData.email === email) {
-    alert('You are already register kindly login your account')
+  let i = console.log(storedData[0].name);
+  console.log(name);
+  if (storedData && storedData.name === name && storedData.email === email) {
+    alert("You are already register kindly login your account");
   }
 
-    // console.log(userArray);
+  // console.log(userArray);
   //   if (storedNa)
 });
-
-
-
