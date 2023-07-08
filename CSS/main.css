@@ -1,0 +1,294 @@
+/* ---------------------------------Main section------------------------ */
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins:wght@400;500;700;900&display=swap");
+main {
+  width: 100%;
+  font-family: "Poppins", serif;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.banner {
+  width: 45%;
+  padding: 4rem 2rem;
+}
+.banner-img {
+  width: 45%;
+}
+.banner-img > img {
+  width: 100%;
+}
+.heading {
+  margin-bottom: 1rem;
+  font-family: "Caprasimo", cursive;
+  font-size: 3em;
+  letter-spacing: 1px;
+}
+.intro-para {
+  color: rgb(205, 199, 199);
+  padding-right: 3.5rem;
+}
+.main-btns {
+  position: relative;
+  bottom: 2rem;
+  width: 50%;
+  padding-left: 4rem;
+}
+.main-btn {
+  margin-right: 1rem;
+}
+#checkbox {
+  display: none;
+}
+
+.toggle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition-duration: 0.5s;
+}
+
+.bars {
+  width: 100%;
+  height: 4px;
+  background-color: rgb(176, 92, 255);
+  border-radius: 4px;
+}
+
+#bar2 {
+  transition-duration: 0.8s;
+}
+
+#bar1,
+#bar3 {
+  width: 70%;
+}
+
+#checkbox:checked + .toggle .bars {
+  position: absolute;
+  transition-duration: 0.5s;
+}
+
+#checkbox:checked + .toggle #bar2 {
+  transform: scaleX(0);
+  transition-duration: 0.5s;
+}
+
+#checkbox:checked + .toggle #bar1 {
+  width: 100%;
+  transform: rotate(45deg);
+  transition-duration: 0.5s;
+}
+
+#checkbox:checked + .toggle #bar3 {
+  width: 100%;
+  transform: rotate(-45deg);
+  transition-duration: 0.5s;
+}
+
+#checkbox:checked + .toggle {
+  transition-duration: 0.5s;
+  transform: rotate(180deg);
+}
+/* ----------------------------------------------Services-section------------------------------------------------ */
+#services {
+  padding: 5rem 0 2rem 0;
+}
+.services {
+  background: linear-gradient(to left, #1488cc, #2b32b2);
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.services > h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1.2rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.services > p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  text-align: center;
+  font-style: italic;
+  padding: 0.7rem;
+  letter-spacing: 1px;
+}
+.flex .card > img {
+  width: 80%;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1.5rem 0;
+}
+.card {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* Contact-section  */
+.contact {
+  margin-top: 2.3rem;
+  display: flex;
+}
+.booking {
+  background: #1cb5e06a;
+}
+.contact-text {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 2rem;
+}
+.contact-text > h1 {
+  padding-bottom: 1rem;
+  font-weight: 100;
+  font-family: "Caprasimo", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+}
+.booking,
+.contact-now {
+  width: 50%;
+}
+form {
+  padding: 2rem 0;
+}
+label,
+input,
+select,
+option {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: black;
+}
+label {
+  color: white;
+  margin-top: 1rem;
+  border: none;
+}
+input::placeholder {
+  padding: 1rem;
+}
+.contact-btn {
+  padding-top: 1rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.contact-now {
+  background: #3ec0e4;
+}
+.con-wrapper {
+  padding-top: 2rem;
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+}
+.con-wrapper > h1 {
+  padding-bottom: 1rem;
+  font-weight: 100;
+  font-family: "Caprasimo", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+}
+.con-wrapper > h3 {
+  color: rgb(0, 0, 57);
+  font-weight: 500;
+  margin: 1rem;
+}
+.con-wrapper > p {
+  margin: 1rem;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+}
+
+/* *****************Partners-section************** */
+.partners {
+  margin-top: 2rem;
+}
+.partners-banner {
+  position: relative;
+}
+.partners-banner > img {
+  width: 100%;
+}
+.partners-banner > h1 {
+  position: absolute;
+  bottom: 10rem;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Caprasimo", cursive;
+  font-size: 2.7rem;
+  padding: 0 3rem;
+}
+.partners-info {
+  border-radius: 15px;
+  background: linear-gradient(145deg, #ffffff, #e3e3e3);
+  box-shadow: 6px 6px 12px #f7f7f7;
+  position: relative;
+  bottom: 3rem;
+  width: 80%;
+  margin: 0 auto;
+  background: whitesmoke;
+  padding: 2rem;
+}
+.partners-info > h3 {
+  color: rgb(9, 0, 75);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.flex-imgs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 2rem 0 4rem;
+}
+.flex-imgs > img {
+  width: 30%;
+  height: 120px;
+  object-fit: contain;
+}
+/* Footer-section  */
+footer {
+  background: rgba(86, 7, 156, 0.418);
+  width: 100%;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.icons > a > img {
+  width: 34px;
+}
+footer p {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 1rem;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let's Chat</title>
+    <link rel="stylesheet" href="../CSS/letsChat.css" />
+    <link rel="stylesheet" href="../CSS/mediaQueries.css" />
+  </head>
+  <body>
+    <h1>Let's chat about it</h1>
+    <form id="info-form">
+      <select name="fields" id="fields">
+        <option value="Hire tech talents">Hire tech talents</option>
+        <option value="Front-end developer">Front-end developer</option>
+        <option value="Back-end developer">Back-end developer</option>
+        <option value="Reactjs developer">Reactjs developer</option>
+        <option value="JavaScript developer">JavaScript developer</option>
+        <option value="MERN developer">MERN developer</option>
+        <option value="Full stack developer">Full stack developer</option>
+      </select>
+      <p>
+        Use this form to contact us if you are looking for Recruiter Monk to
+        hire remote developers you
+      </p>
+      <hr />
+
+      <!-- checkboxes -->
+
+      <fieldset>
+        <legend>
+          How many developers are you looking to hire from Recruiter Monk? *
+        </legend>
+
+        <div>
+          <input type="radio" id="1-4" name="nums" value="1-4" checked />
+          <label for="1-4">1-4</label>
+        </div>
+
+        <div>
+          <input type="radio" id="4-5" name="nums" value="4-5" />
+          <label for="4-5">4-5</label>
+        </div>
+        <div>
+          <input type="radio" id="10+" name="nums" value="10+" />
+          <label for="10+">10+</label>
+        </div>
+
+        <div>
+          <input type="radio" id="more" name="nums" value="more" />
+          <label for="more">More</label>
+        </div>
+        <div>
+          <input type="radio" id="not sure" name="nums" value="not sure" />
+          <label for="not sure">Not sure</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>
+          What tech professionals are you looking to hire from Recruiter Monk? *
+        </legend>
+        <div>
+          <input type="checkbox" id="scales" name="scales" checked />
+          <label for="scales">iOS Developers</label>
+        </div>
+        <div>
+          <input type="checkbox" id="horns" name="horns" />
+          <label for="horns">Android Developers</label>
+        </div>
+        <div>
+          <input type="checkbox" id="horns" name="horns" />
+          <label for="horns">Front-end Developers</label>
+        </div>
+        <div>
+          <input type="checkbox" id="horns" name="horns" />
+          <label for="horns">Back-end Developers</label>
+        </div>
+        <div>
+          <input type="checkbox" id="horns" name="horns" />
+          <label for="horns">Others</label>
+        </div>
+        <div>
+          <input type="checkbox" id="horns" name="horns" />
+          <label for="horns">Not sure</label>
+        </div>
+      </fieldset>
+      <label class="label" for="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        minlength="4"
+        maxlength="8"
+        size="10"
+        placeholder="Your Name*"
+      />
+      <label class="label" for="name">Email</label>
+      <input
+        type="email"
+        id="email"
+        size="30"
+        required
+        placeholder="Email Address*"
+      />
+      <label class="label" for="name">Company</label>
+      <input
+        type="text"
+        id="Company"
+        name="Company"
+        required
+        minlength="4"
+        maxlength="8"
+        size="10"
+        placeholder="Company*"
+      />
+      <label class="label" for="Phone">Contact Number:</label>
+      <input
+        type="number"
+        id="Phone"
+        name="Phone"
+        min="10"
+        placeholder="Contact Number*"
+      />
+
+      <button class="btn">Submit</button>
+    </form>
+    <script src="../JAVASCRIPT/letsChat.js"></script>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+/* CSS Reset  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+
+}
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(to bottom, #000428, #004e92); 
+  color: white;
+}
+/* Navbar  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: transparent;
+  height: 140px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.nav-img-link {
+  width: 55%;
+}
+.nav-img-link > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+nav > ul {
+  list-style: none;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+nav > ul > li > a {
+  text-decoration: none;
+}
+.underline-animation {
+  position: relative;
+  text-decoration: none;
+}
+
+.underline-animation::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(
+    255,
+    187,
+    0
+  );
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.underline-animation:hover::after {
+  transform: scaleX(1);
+}
+.btn {
+  padding: 0.7em 2em;
+  background: none;
+  border: 2px solid #fff;
+  font-size: 15px;
+  color: #131313;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  border-radius: 12px;
+  background-color: #ecd448;
+  font-weight: bolder;
+  box-shadow: 0 2px 0 2px #000;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 120%;
+  background-color: #ff6700;
+  top: 50%;
+  transform: skewX(30deg) translate(-150%, -50%);
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: #4cc9f0;
+  color: #fff;
+  box-shadow: 0 2px 0 2px #0d3b66;
+}
+
+.btn:hover::before {
+  transform: skewX(30deg) translate(150%, -50%);
+  transition-delay: 0.1s;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+.hamburger-menu {
+  display: none;
+}
+
+
+/* why-us-section */
+.why-us{
+  width: 80%;
+  margin: 0 auto;
+}
+.why-us >h2{
+  margin: 2rem;
+  font-family: 'Poppins', sans-serif;
+  width: 50%;
+}
+.why-us >p{
+  margin-left: 2rem;
+  font-family: 'Poppins', sans-serif;
+  width: 50%;
+}
+.why-us>.btn{
+  margin: 2rem 0 0 2rem;
+}
+.why-us>.btn>a{
+  text-decoration: none;
+}
+
+

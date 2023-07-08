@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSS/home.css" />
+    <link rel="stylesheet" href="../CSS/main.css" />
+    <link rel="stylesheet" href="../CSS/mediaQueries.css" />
+    <link rel="stylesheet" href="../CSS/faq.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/home.html" class="nav-img-link">
+        <img
+          src="../assets/recuiter_monk__2_-removebg-preview (1).png"
+          alt="logo"
+      /></a>
+      <ul>
+        <li><a class="underline-animation" href="#">Home</a></li>
+        <li><a class="underline-animation" href="#services">Services</a></li>
+        <li><a class="underline-animation" href="#">Our Team</a></li>
+        <li><a class="underline-animation" href="#">Testimonials</a></li>
+        <li><a class="underline-animation" href="#contact">Contact Us</a></li>
+        <li><button class="btn">Sign In</button></li>
+      </ul>
+      <div class="hamburger-menu">
+        <input type="checkbox" id="checkbox" />
+        <label for="checkbox" class="toggle">
+          <div class="bars" id="bar1"></div>
+          <div class="bars" id="bar2"></div>
+          <div class="bars" id="bar3"></div>
+        </label>
+      </div>
+    </nav>
+    <!-- ******************Main-section ******************* -->
+    <main>
+      <div class="wrapper">
+        <div class="banner">
+          <h1 class="heading">
+            Recurit the best <br />
+            <span id="dynamic-text"></span>
+          </h1>
+          <p class="intro-para">
+            Achieve success with the help of a Human Resources expert. Our
+            consultancy offers tailored HR services to help you optimize your
+            workplace and build an effective, efficient team. Unlock your
+            potential today today.
+          </p>
+        </div>
+        <div class="banner-img">
+          <img
+            src="https://cdni.iconscout.com/illustration/premium/thumb/finding-recruitment-2161928-1816234.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="main-btns">
+        <button class="btn main-btn">LEARN MORE</button>
+        <button class="btn"><a href="../HTML/letsChat.html">GET STARTED</a></button>
+      </div>
+    </main>
+
+    <!-- ******************** Services-section ************************* -->
+    <section id="services">
+      <article class="services">
+        <h1>Services</h1>
+        <p>All services are available for you at the moment!</p>
+        <div class="flex">
+          <div class="card">
+            <img src="../assets/Buffer-bro.png" alt="img1" />
+            <h3>Recruitment and Selection</h3>
+            <p>
+              Our website provides recruitment and selection services to help
+              you find an experienced Human Resources consultant.
+            </p>
+          </div>
+          <div class="card">
+            <img src="../assets/Performance overview-rafiki.png" alt="img1" />
+            <h3>Performance Management</h3>
+            <p>
+              Our performance management service helps website visitors find
+              experienced HR consultants to support their business goals.
+            </p>
+          </div>
+          <div class="card">
+            <img src="../assets/Creativity-pana.png" alt="img1" />
+            <h3>Access a Vast Talent Pool</h3>
+            <p>
+              Expand your reach and attract top talent from diverse sources,
+              including job boards, social media, and your own career portal.
+            </p>
+          </div>
+          <div class="card">
+            <img src="../assets/Selecting team-amico.png" alt="img1" />
+            <h3>Enhance Candidate Screening</h3>
+            <p>
+              Leverage advanced screening tools and customizable filters to
+              quickly identify qualified candidates, saving hours of manual
+              screening.
+            </p>
+          </div>
+          <div class="card">
+            <img src="../assets/Security On-bro.png" alt="img1" />
+            <h3>Reliable Data Security and Compliance</h3>
+            <p>
+              Rest easy knowing that your candidate and company data is
+              protected by robust security measures and compliant with industry
+              regulations.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Contact-section  -->
+    <section class="contact" id="contact">
+      <div class="booking">
+        <div class="contact-text">
+          <h1>Book online now</h1>
+          <p>Request a new appointment</p>
+        </div>
+        <form>
+          <label for="Location">Loaction</label>
+          <select name="" id="Location">
+            <option value="location">Enter location</option>
+            <option value="delhi">Delhi</option>
+            <option value="lucknow">lucknow</option>
+            <option value="Dehradun">Dehradun</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Goa">Goa</option>
+          </select>
+          <label for="service">Service</label>
+          <select name="" id="service">
+            <option value="location">Services</option>
+            <option value="delhi">Delhi</option>
+            <option value="lucknow">lucknow</option>
+            <option value="Dehradun">Dehradun</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Goa">Goa</option>
+          </select>
+          <label for="date">Date</label>
+          <input
+            type="text"
+            autocomplete="on"
+            placeholder="DD / MM / YYYY"
+            id="date"
+          />
+          <label for="first name">First Name</label>
+          <input type="text" id="first name" placeholder="eg. John" />
+          <label for="last name">Last Name</label>
+          <input type="text" id="last name" placeholder="eg. Doe" />
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Email address*" />
+          <div class="contact-btn">
+            <button class="btn">Book now</button>
+          </div>
+        </form>
+      </div>
+      <div class="contact-now">
+        <div class="con-wrapper">
+          <h1>Contact info</h1>
+          <h3>Email</h3>
+          <p>email@hocoos.com</p>
+          <h3>Phone</h3>
+          <p>+1 234 567 8900</p>
+          <h3>Address</h3>
+          <p>Strand, London WC2R 2LS, UK</p>
+        </div>
+      </div>
+    </section>
+    <!-- Partner-section  -->
+    <section class="partners">
+      <div class="partners-banner">
+        <img
+          src="https://img2.hocoos.com/cache/img-pack/288/w-1920/h-560/ww-1920/wh-560/img-pack/288/pexels-fauxels-3183197.jpg"
+          alt="office"
+        />
+        <h1>
+          Facilitating a straightforward approach to hiring tech talent from
+          overseas.
+        </h1>
+      </div>
+      <div class="partners-info">
+        <h3>Partners Associated with us</h3>
+        <div class="flex-imgs">
+          <img src="../assets/logos/app_master.svg" alt="code genius" />
+          <img src="../assets/logos/appify-removebg-preview.png" alt="" />
+          <img src="../assets/logos/appSphere-removebg-preview.png" alt="" />
+          <img src="../assets/logos/codegenius-removebg-preview.png" alt="" />
+          <img src="../assets/logos/devCreatives-removebg-preview.png" alt="" />
+          <img src="../assets/logos/mobileGenius-removebg-preview.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- we are different -->
+    <section class="why-us" id="">
+      <h2>
+        We simplify rigorous Selection Process for Recruiting Highly Skilled
+        Offshore Developers
+      </h2>
+      <p>
+        Our meticulous approach involves an extensive search, meticulous
+        shortlisting, and thorough code testing to identify and secure the most
+        proficient offshore developers. We exclusively select individuals with
+        substantial experience who successfully navigate our demanding hiring
+        criteria.
+      </p>
+      <br />
+      <p><b> Still have doubt why choose us?</b></p>
+      <button class="btn">
+        <a href="../HTML/OurTeam.html">Explore More</a>
+      </button>
+    </section>
+    <!-- ***********************Faq-section******************** -->
+    <section class="faq main">
+      <h1>Frequently Asked Questions</h1>
+      <div class="faq-container">
+        <div class="faq active">
+          <h3 class="faq-title">
+            How can this app benefit my company's recruitment process?
+          </h3>
+
+          <p class="faq-text">
+            Our app streamlines the hiring process by providing a seamless
+            experience for hiring managers and HR professionals. It offers
+            efficient candidate search capabilities, secure user login, and
+            registration pages tailored for companies. With our app, you can
+            easily find candidates based on location and job roles, list and
+            evaluate them for ranking, and ultimately hire the best talent for
+            your organization.
+          </p>
+
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <div class="faq">
+          <h3 class="faq-title">
+            Is the app secure for storing company and candidate data?
+          </h3>
+          <p class="faq-text">
+            Yes, the app ensures the security of your data. We prioritize data
+            protection and implement robust security measures to safeguard
+            company and candidate information. Our login and registration pages
+            are designed with the latest security protocols, ensuring that only
+            authorized personnel can access the app and its features.
+          </p>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <div class="faq">
+          <h3 class="faq-title">
+            Can I customize the app to match my company's branding?
+          </h3>
+          <p class="faq-text">
+            Absolutely! Our app allows you to customize various aspects to align
+            with your company's branding. You can personalize the landing page,
+            add your company logo and colors, and create a cohesive visual
+            identity that represents your organization's unique style.
+          </p>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <div class="faq">
+          <h3 class="faq-title">
+            How does the candidate search functionality work?
+          </h3>
+          <p class="faq-text">
+            The candidate search functionality in our app allows you to find
+            suitable candidates based on location and job roles. Simply input
+            the desired location and job criteria into the search fields, and
+            the app will fetch relevant candidates. You can then view their
+            profiles, assess their qualifications, and shortlist them for
+            further evaluation.
+          </p>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <div class="faq">
+          <h3 class="faq-title">
+            Can multiple users from my company access the app simultaneously?
+          </h3>
+          <p class="faq-text">
+            Yes, our app supports multiple user access. You can create accounts
+            for multiple hiring managers and HR professionals within your
+            company. Each user will have their own secure login credentials,
+            allowing them to access the app simultaneously and collaborate
+            effectively during the recruitment process.
+          </p>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="faq">
+          <h3 class="faq-title">
+            Is there support available if I encounter any issues or have
+            questions?
+          </h3>
+          <p class="faq-text">
+            Absolutely! We provide comprehensive support to our users. If you
+            encounter any issues or have questions regarding the app, you can
+            reach out to our dedicated support team. They are available to
+            assist you and provide prompt solutions to any problems you may
+            face.
+          </p>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="icons">
+        <a href=""><img src="../assets/logos/instagram.png" alt="" /></a>
+        <a href=""> <img src="../assets/logos/linkedin.png" alt="" /></a>
+        <a href=""> <img src="../assets/logos/twitter.png" alt="" /></a>
+        <a href=""><img src="../assets/logos/facebook.png" alt="" /></a>
+      </div>
+      <p>Copyright © Recruite Monk - Mobile App Developer Banglore</p>
+      <p>
+        +91 68725 2323 • 23 LakeView Park, Andheri West #06-21 Mumbai 434376
+      </p>
+    </footer>
+    <script src="../JAVASCRIPT/faq.js"></script>
+  </body>
+</html>
