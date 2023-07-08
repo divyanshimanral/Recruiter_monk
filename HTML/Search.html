@@ -1,11 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Search</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../CSS/search.css" />
+  </head>
+  <body>
+    <button class="top-btn"><a href="../home.html">Back</a></button>
+    <div id="buttons">
+      <p>Filters</p>
+      <button onclick="filterObjects('all')" class="btn">Show All</button>
+      <button onclick="filterObjects('front-end')" class="btn">
+        front-end
+      </button>
+      <button onclick="filterObjects('Back-end')" class="btn">Back-end</button>
+      <button onclick="filterObjects('reactjs')" class="btn">
+        reactjs
+      </button>
+      <button onclick="filterObjects('Javascript')" class="btn">
+        Javascript
+      </button>
+      <button onclick="filterObjects('remote')" class="btn">remote</button>
+    </div>
+    <div class="profiles">
+      <div class="box reactjs remote">
+        <img src="../assets/Personal data-pana.png" alt="profile" />
+        <h1>John Doe</h1>
+        <p>ex-employee of: Eximius, IIM Bangalore</p>
+        <p>reactjs Developer</p>
+        <div class="flex">
+          <p>Start Date: <span>Immediately</span></p>
+          <p>Experience: <span>10+</span></p>
+          <p>Location: <span>remote</span></p>
+        </div>
+        <button class="box-btn">Add to team</button>
+      </div>
+      <div class="box reactjs remote">
+        <img
+          src="../assets/Personal data-pana.png"
+          alt="profile"
+          alt="profile"
+        />
+        <h1>Noah Smith</h1>
+        <p>ex-employee of: Eximius, IIM Bangalore</p>
+        <p>reactjs Developer</p>
+        <div class="flex">
+          <p>Start Date: <span>Immediately</span></p>
+          <p>Experience: <span>10+</span></p>
+          <p>Location: <span>remote</span></p>
+        </div>
+        <button class="box-btn">Add to team</button>
+      </div>
+      <div class="box Back-end front-end">
+        <img
+          src="../assets/Personal data-pana.png"
+          alt="profile"
+          alt="profile"
+        />
+        <h1>Benjamin Johnson</h1>
+        <p>ex-employee of: Eximius, IIM Bangalore</p>
+        <p>Back-end, front-end Developer</p>
+        <div class="flex">
+          <p>Start Date: <span>Immediately</span></p>
+          <p>Experience: <span>10+</span></p>
+        </div>
+        <button class="box-btn">Add to team</button>
+      </div>
+      <div class="box Javascript">
+        <img src="../assets/Personal data-pana.png" alt="profile" alt="" />
+        <h1>Charlotte Anderson</h1>
+        <p>ex-employee of: Eximius, IIM Bangalore</p>
+        <p>Javascript Developer</p>
+        <div class="flex">
+          <p>Start Date: <span>Immediately</span></p>
+          <p>Experience: <span>10+</span></p>
+        </div>
+        <button class="box-btn">Add to team</button>
+      </div>
+      <div class="box Back-end">
+        <img
+          src="../assets/Personal data-pana.png"
+          alt="profile"
+          alt="profile"
+        />
+        <h1>Harper Brown</h1>
+        <p>ex-employee of: Eximius, IIM Bangalore</p>
+        <p>Back-end Developer</p>
+        <div class="flex">
+          <p>Start Date: <span>Immediately</span></p>
+          <p>Experience: <span>10+</span></p>
+        </div>
+        <button class="box-btn">Add to team</button>
+      </div>
+      <div class="box front-end">
+        <img
+          src="../assets/Personal data-pana.png"
+          alt="profile"
+          alt="profile"
+        />
+        <h1>Evelyn Jones</h1>
+        <p>ex-employee of: Eximius, IIM Bangalore</p>
+        <p>front-end Developer</p>
+        <div class="flex">
+          <p>Start Date: <span>Immediately</span></p>
+          <p>Experience: <span>10+</span></p>
+        </div>
+        <button class="box-btn">Add to team</button>
+      </div>
+      <div class="box Back-end">
+        <img
+          src="../assets/Personal data-pana.png"
+          alt="profile"
+          alt="profile"
+        />
+        <h1>Mia Davis</h1>
+        <p>ex-employee of: Eximius, IIM Bangalore</p>
+        <p>Back-end Developer</p>
+        <div class="flex">
+          <p>Start Date: <span>Immediately</span></p>
+          <p>Experience: <span>10+</span></p>
+        </div>
+        <button class="box-btn">Add to team</button>
+      </div>
+      <div class="box front-end">
+        <img
+          src="../assets/Personal data-pana.png"
+          alt="profile"
+          alt="profile"
+        />
+        <h1>Henry Wilson</h1>
+        <p>ex-employee of: Eximius, IIM Bangalore</p>
+        <p>front-end Developer</p>
+        <div class="flex">
+          <p>Start Date: <span>Immediately</span></p>
+          <p>Experience: <span>10+</span></p>
+        </div>
+        <button class="box-btn">Add to team</button>
+      </div>
+      <div class="box front-end">
+        <img
+          src="../assets/Personal data-pana.png"
+          alt="profile"
+          alt="profile"
+        />
+        <h1>Oliver Jackson</h1>
+        <p>ex-employee of: Eximius, IIM Bangalore</p>
+        <p>front-end Developer</p>
+        <div class="flex">
+          <p>Start Date: <span>Immediately</span></p>
+          <p>Experience: <span>10+</span></p>
+        </div>
+        <button class="box-btn">Add to team</button>
+      </div>
+      <div class="box reactjs remote">
+        <img
+          src="../assets/Personal data-pana.png"
+          alt="profile"
+          alt="profile"
+        />
+        <h1>Alexander White</h1>
+        <p>ex-employee of: Eximius, IIM Bangalore</p>
+        <p>reactjs Developer</p>
+        <div class="flex">
+          <p>Start Date: <span>Immediately</span></p>
+          <p>Experience: <span>10+</span></p>
+          <p>Location: <span>remote</span></p>
+        </div>
+        <button class="box-btn">Add to team</button>
+      </div>
+      <div class="box Javascript">
+        <img
+          src="../assets/Personal data-pana.png"
+          alt="profile"
+          alt="profile"
+        />
+        <h1>Samuel Harris</h1>
+        <p>ex-employee of: Eximius, IIM Bangalore</p>
+        <p>Javascript Developer</p>
+        <div class="flex">
+          <p>Start Date: <span>Immediately</span></p>
+          <p>Experience: <span>10+</span></p>
+        </div>
+        <button class="box-btn">Add to team</button>
+      </div>
+      <div class="box Javascript">
+        <img
+          src="../assets/Personal data-pana.png"
+          alt="profile"
+          alt="profile"
+        />
+        <h1>Ethan Martin</h1>
+        <p>ex-employee of: Eximius, IIM Bangalore</p>
+        <p>Javascript Developer</p>
+        <div class="flex">
+          <p>Start Date: <span>Immediately</span></p>
+          <p>Experience: <span>10+</span></p>
+        </div>
+        <button class="box-btn">Add to team</button>
+      </div>
+    </div>
+    <script src="../JAVASCRIPT/search.js"></script>
+  </body>
 </html>
