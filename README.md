@@ -1,7 +1,7 @@
 # Recruiter Monk - Digital Recruitment Solution App
 ## Recruiter Monk
-
-![Recruiter Monk](/assets/recruiterMonk.png)
+<img alt="banner" 
+src="/assets/recruiterMonk.png"/>
 
 ### Introduction
 Welcome to Recruiter Monk, the ultimate digital recruitment solution designed to streamline the hiring process for multiple MNCs. Our app provides a seamless and efficient experience for hiring managers and HR professionals, empowering them to find top talent quickly and effectively. With an intuitive user interface and powerful features, Recruiter Monk revolutionizes the way companies discover and evaluate candidates.
