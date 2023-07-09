@@ -1,5 +1,6 @@
 /* ---------------------------------Main section------------------------ */
 @import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins:wght@400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 main {
   width: 100%;
   font-family: "Poppins", serif;
@@ -112,19 +113,19 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-bottom:3rem;
 }
 .services .service-head {
   text-align: center;
-  font-size: 2rem;
-  padding: 0.2rem;
-  font-family: "Courier New", Courier, monospace;
-  margin: 0.7rem 0rem;
+  font-size: 2.3rem;
+  padding: 1.2rem .2rem 0rem .2rem;
+  font-family: 'Roboto', sans-serif;
+  margin: 0.7rem 0rem .4rem;
 }
 .services > p {
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   text-align: center;
-  font-style: italic;
   padding: 0rem;
   letter-spacing: 1px;
   font-size: 1.1rem;
@@ -132,11 +133,21 @@ main {
 .flex .card > img {
   width: 80%;
 }
+.flex .card > img:hover{
+  transform: scale(1.1);
+  transition: 2s transform;
+}
 .flex {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 1.5rem 0;
+}
+.card>h3{
+  font-size: .9rem;
+}
+.card>p{
+  font-size: .7rem;
 }
 .card {
   width: 18%;
@@ -152,7 +163,8 @@ main {
   display: flex;
 }
 .booking {
-  background: #1cb5e06a;
+  background: #001644;
+    border: 2px solid white;
 }
 .contact-text {
   width: 80%;
@@ -171,7 +183,7 @@ main {
   width: 50%;
 }
 form {
-  padding: 2rem 0;
+  padding-bottom: 2rem;
 }
 label,
 input,
@@ -195,12 +207,13 @@ input::placeholder {
   color: black;
 }
 .contact-btn {
-  padding-top: 1rem;
+  padding-top: 2rem;
   width: 80%;
   margin: 0 auto;
 }
 .contact-now {
-  background: #3ec0e4;
+  background:#276cd2;
+  border: 2px solid white;
 }
 .con-wrapper {
   padding-top: 2rem;
@@ -215,13 +228,13 @@ input::placeholder {
   font-size: 2.5rem;
 }
 .con-wrapper > h3 {
-  color: rgb(0, 0, 57);
-  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
   margin: 1rem;
 }
 .con-wrapper > p {
   margin: 1rem;
-  font-weight: 800;
+  font-weight: 400;
   color: rgb(255, 255, 255);
 }
 
@@ -277,7 +290,7 @@ input::placeholder {
 }
 /* Footer-section  */
 footer {
-  background: rgba(86, 7, 156, 0.418);
+  background:#001339;
   width: 100%;
 }
 .icons {
@@ -290,6 +303,7 @@ footer {
 }
 .icons > a > img {
   width: 34px;
+  filter: drop-shadow(2px 4px 6px black);
 }
 footer p {
   width: 50%;
