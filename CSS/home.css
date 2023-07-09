@@ -105,6 +105,9 @@ nav > ul > li > a {
 .btn:active {
   transform: scale(0.9);
 }
+.btn.get-btn {
+  background-color: rgb(18, 220, 18);
+}
 
 /* toogler-nav */
 .hamburger-menu {
