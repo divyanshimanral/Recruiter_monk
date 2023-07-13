@@ -13,36 +13,61 @@
     <link rel="stylesheet" href="./CSS/home.css" />
     <link rel="stylesheet" href="./CSS/main.css" />
     <link rel="stylesheet" href="./CSS/mediaQueries.css" />
+    <link rel="stylesheet" href="./CSS/nav.css" />
     <link rel="stylesheet" href="./CSS/faq.css" />
   </head>
   <body>
-    <nav>
+    <header>
       <a href="home.html" class="nav-img-link">
         <img
           src="../assets/recuiter_monk__2_-removebg-preview (1) (1).png"
           alt="logo"
       /></a>
-      <ul>
-        <li>
-          <a style="border-bottom: 2px solid rgb(255, 187, 0)" href="#">Home</a>
-        </li>
-        <li><a class="underline-animation" href="#services">Services</a></li>
-        <li><a class="underline-animation" href="#">Our Team</a></li>
-        <li><a class="underline-animation" href="#">Testimonials</a></li>
-        <li><a class="underline-animation" href="#contact">Contact Us</a></li>
-        <a href="./HTML/SignUp.html"
-          ><li><button class="btn">Sign In</button></li></a
-        >
-      </ul>
-      <div class="hamburger-menu">
-        <input type="checkbox" id="checkbox" />
-        <label for="checkbox" class="toggle">
-          <div class="bars" id="bar1"></div>
-          <div class="bars" id="bar2"></div>
-          <div class="bars" id="bar3"></div>
-        </label>
-      </div>
-    </nav>
+      <nav id="nav">
+        <ul class="list">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li><a class="underline-animation" href="#services">Services</a></li>
+          <li><a class="underline-animation" href="#">Our Team</a></li>
+          <li><a class="underline-animation" href="#">Testimonials</a></li>
+          <li><a class="underline-animation" href="#contact">Contact Us</a></li>
+          <a href="./HTML/SignUp.html"
+            ><li><button class="btn">Sign In</button></li></a
+          >
+        </ul>
+      </nav>
+    </header>
+    <!-- header 2 -->
+
+    <header class="header2">
+      <a href="home.html" class="nav-img-link">
+        <img
+          src="../assets/recuiter_monk__2_-removebg-preview (1) (1).png"
+          alt="logo"
+      /></a>
+      <button class="nav-btn open-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav id="nav2" class="nav2">
+        <button class="nav-btn close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="list">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li><a class="underline-animation" href="#services">Services</a></li>
+          <li><a class="underline-animation" href="#">Our Team</a></li>
+          <li><a class="underline-animation" href="#">Testimonials</a></li>
+          <li><a class="underline-animation" href="#contact">Contact Us</a></li>
+          <a href="./HTML/SignUp.html"
+            ><li><button class="btn">Sign In</button></li></a
+          >
+        </ul>
+      </nav>
+    </header>
+
     <!-- ******************Main-section ******************* -->
     <main>
       <div class="wrapper">
@@ -357,5 +382,6 @@
       </p>
     </footer>
     <script src="../JAVASCRIPT/faq.js"></script>
+    <script src="../JAVASCRIPT/home.js"></script>
   </body>
 </html>

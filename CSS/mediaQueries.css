@@ -1,14 +1,5 @@
 /* Styles for desktops (769px - 968px) */
 @media screen and (min-width: 769px) and (max-width: 968px) {
-  nav {
-    width: 100%;
-  }
-  .nav-img-link {
-    width: 35%;
-  }
-  nav > ul {
-    width: 65%;
-  }
   .partners-banner > h1 {
     position: absolute;
     bottom: 4rem;
@@ -32,20 +23,6 @@
 }
 /* Styles for tablets (481px - 768px) */
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  /* toogler-navigation */
-  nav > ul {
-    display: none;
-  }
-  .hamburger-menu {
-    display: block;
-    display: flex;
-    align-items: center;
-    padding: 1em;
-  }
-
-  nav {
-    justify-content: space-between;
-  }
   .wrapper {
     flex-direction: column-reverse;
   }
@@ -134,28 +111,6 @@
 
 /* Styles for large smartphones (321px - 480px) */
 @media screen and (min-width: 321px) and (max-width: 480px) {
-  .nav-img-link {
-    width: 50%;
-  }
-  .nav-img-link > img {
-    width: 100%;
-  }
-  nav > ul {
-    display: none;
-  }
-  .hamburger-menu {
-    display: block;
-  }
-  nav {
-    justify-content: space-between;
-    align-items: center;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  .hamburger-menu {
-    margin-bottom: 1rem;
-  }
-  /* main-section */
   .wrapper {
     flex-direction: column-reverse;
   }
@@ -263,20 +218,6 @@
 
 /* Styles for small smartphones (320px and below) */
 @media screen and (max-width: 320px) {
-  nav > ul {
-    display: none;
-  }
-  .hamburger-menu {
-    display: block;
-  }
-  nav {
-    display: flex;
-    justify-content: space-between;
-  }
-  .nav-img-link {
-    width: 55%;
-    padding: 0;
-  }
   main {
     padding-bottom: 0.8rem;
   }
